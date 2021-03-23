@@ -25,7 +25,7 @@ public class FBTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.naukri.com/");
 	}
 	@AfterMethod
 	public void teardown()
