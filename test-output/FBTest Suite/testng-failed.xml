@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [FBTest Suite]">
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="com.FBTest">
+        <methods>
+          <include name="FBTitleTest"/>
+          <include name="teardown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.FBTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FBTest Suite] -->
